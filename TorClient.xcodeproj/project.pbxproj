@@ -1,0 +1,574 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		88525ADB20D0BCDF0019AC38 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88525ADA20D0BCDF0019AC38 /* AppDelegate.swift */; };
+		88525ADD20D0BCDF0019AC38 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88525ADC20D0BCDF0019AC38 /* ViewController.swift */; };
+		88525ADF20D0BCE10019AC38 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 88525ADE20D0BCE10019AC38 /* Assets.xcassets */; };
+		88525AE220D0BCE10019AC38 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 88525AE020D0BCE10019AC38 /* Main.storyboard */; };
+		88525AEE20D0BCE10019AC38 /* TorClientTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88525AED20D0BCE10019AC38 /* TorClientTests.swift */; };
+		88525AF920D0BCE10019AC38 /* TorClientUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 88525AF820D0BCE10019AC38 /* TorClientUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		88525AEA20D0BCE10019AC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88525ACF20D0BCDF0019AC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88525AD620D0BCDF0019AC38;
+			remoteInfo = TorClient;
+		};
+		88525AF520D0BCE10019AC38 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 88525ACF20D0BCDF0019AC38 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 88525AD620D0BCDF0019AC38;
+			remoteInfo = TorClient;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		88525AD720D0BCDF0019AC38 /* TorClient.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TorClient.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		88525ADA20D0BCDF0019AC38 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		88525ADC20D0BCDF0019AC38 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		88525ADE20D0BCE10019AC38 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		88525AE120D0BCE10019AC38 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		88525AE320D0BCE10019AC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88525AE420D0BCE10019AC38 /* TorClient.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TorClient.entitlements; sourceTree = "<group>"; };
+		88525AE920D0BCE10019AC38 /* TorClientTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorClientTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88525AED20D0BCE10019AC38 /* TorClientTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorClientTests.swift; sourceTree = "<group>"; };
+		88525AEF20D0BCE10019AC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		88525AF420D0BCE10019AC38 /* TorClientUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TorClientUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		88525AF820D0BCE10019AC38 /* TorClientUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TorClientUITests.swift; sourceTree = "<group>"; };
+		88525AFA20D0BCE10019AC38 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		88525AD420D0BCDF0019AC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AE620D0BCE10019AC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AF120D0BCE10019AC38 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		88525ACE20D0BCDF0019AC38 = {
+			isa = PBXGroup;
+			children = (
+				88525AD920D0BCDF0019AC38 /* TorClient */,
+				88525AEC20D0BCE10019AC38 /* TorClientTests */,
+				88525AF720D0BCE10019AC38 /* TorClientUITests */,
+				88525AD820D0BCDF0019AC38 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		88525AD820D0BCDF0019AC38 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				88525AD720D0BCDF0019AC38 /* TorClient.app */,
+				88525AE920D0BCE10019AC38 /* TorClientTests.xctest */,
+				88525AF420D0BCE10019AC38 /* TorClientUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		88525AD920D0BCDF0019AC38 /* TorClient */ = {
+			isa = PBXGroup;
+			children = (
+				88525ADA20D0BCDF0019AC38 /* AppDelegate.swift */,
+				88525ADC20D0BCDF0019AC38 /* ViewController.swift */,
+				88525ADE20D0BCE10019AC38 /* Assets.xcassets */,
+				88525AE020D0BCE10019AC38 /* Main.storyboard */,
+				88525AE320D0BCE10019AC38 /* Info.plist */,
+				88525AE420D0BCE10019AC38 /* TorClient.entitlements */,
+			);
+			path = TorClient;
+			sourceTree = "<group>";
+		};
+		88525AEC20D0BCE10019AC38 /* TorClientTests */ = {
+			isa = PBXGroup;
+			children = (
+				88525AED20D0BCE10019AC38 /* TorClientTests.swift */,
+				88525AEF20D0BCE10019AC38 /* Info.plist */,
+			);
+			path = TorClientTests;
+			sourceTree = "<group>";
+		};
+		88525AF720D0BCE10019AC38 /* TorClientUITests */ = {
+			isa = PBXGroup;
+			children = (
+				88525AF820D0BCE10019AC38 /* TorClientUITests.swift */,
+				88525AFA20D0BCE10019AC38 /* Info.plist */,
+			);
+			path = TorClientUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		88525AD620D0BCDF0019AC38 /* TorClient */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88525AFD20D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClient" */;
+			buildPhases = (
+				88525AD320D0BCDF0019AC38 /* Sources */,
+				88525AD420D0BCDF0019AC38 /* Frameworks */,
+				88525AD520D0BCDF0019AC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TorClient;
+			productName = TorClient;
+			productReference = 88525AD720D0BCDF0019AC38 /* TorClient.app */;
+			productType = "com.apple.product-type.application";
+		};
+		88525AE820D0BCE10019AC38 /* TorClientTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88525B0020D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClientTests" */;
+			buildPhases = (
+				88525AE520D0BCE10019AC38 /* Sources */,
+				88525AE620D0BCE10019AC38 /* Frameworks */,
+				88525AE720D0BCE10019AC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88525AEB20D0BCE10019AC38 /* PBXTargetDependency */,
+			);
+			name = TorClientTests;
+			productName = TorClientTests;
+			productReference = 88525AE920D0BCE10019AC38 /* TorClientTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		88525AF320D0BCE10019AC38 /* TorClientUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 88525B0320D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClientUITests" */;
+			buildPhases = (
+				88525AF020D0BCE10019AC38 /* Sources */,
+				88525AF120D0BCE10019AC38 /* Frameworks */,
+				88525AF220D0BCE10019AC38 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				88525AF620D0BCE10019AC38 /* PBXTargetDependency */,
+			);
+			name = TorClientUITests;
+			productName = TorClientUITests;
+			productReference = 88525AF420D0BCE10019AC38 /* TorClientUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		88525ACF20D0BCDF0019AC38 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Hafizh;
+				TargetAttributes = {
+					88525AD620D0BCDF0019AC38 = {
+						CreatedOnToolsVersion = 9.3.1;
+					};
+					88525AE820D0BCE10019AC38 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 88525AD620D0BCDF0019AC38;
+					};
+					88525AF320D0BCE10019AC38 = {
+						CreatedOnToolsVersion = 9.3.1;
+						TestTargetID = 88525AD620D0BCDF0019AC38;
+					};
+				};
+			};
+			buildConfigurationList = 88525AD220D0BCDF0019AC38 /* Build configuration list for PBXProject "TorClient" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 88525ACE20D0BCDF0019AC38;
+			productRefGroup = 88525AD820D0BCDF0019AC38 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				88525AD620D0BCDF0019AC38 /* TorClient */,
+				88525AE820D0BCE10019AC38 /* TorClientTests */,
+				88525AF320D0BCE10019AC38 /* TorClientUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		88525AD520D0BCDF0019AC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88525ADF20D0BCE10019AC38 /* Assets.xcassets in Resources */,
+				88525AE220D0BCE10019AC38 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AE720D0BCE10019AC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AF220D0BCE10019AC38 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		88525AD320D0BCDF0019AC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88525ADD20D0BCDF0019AC38 /* ViewController.swift in Sources */,
+				88525ADB20D0BCDF0019AC38 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AE520D0BCE10019AC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88525AEE20D0BCE10019AC38 /* TorClientTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88525AF020D0BCE10019AC38 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				88525AF920D0BCE10019AC38 /* TorClientUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		88525AEB20D0BCE10019AC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88525AD620D0BCDF0019AC38 /* TorClient */;
+			targetProxy = 88525AEA20D0BCE10019AC38 /* PBXContainerItemProxy */;
+		};
+		88525AF620D0BCE10019AC38 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 88525AD620D0BCDF0019AC38 /* TorClient */;
+			targetProxy = 88525AF520D0BCE10019AC38 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		88525AE020D0BCE10019AC38 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				88525AE120D0BCE10019AC38 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		88525AFB20D0BCE10019AC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		88525AFC20D0BCE10019AC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		88525AFE20D0BCE10019AC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TorClient/TorClient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		88525AFF20D0BCE10019AC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TorClient/TorClient.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClient/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClient;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		88525B0120D0BCE10019AC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorClient.app/Contents/MacOS/TorClient";
+			};
+			name = Debug;
+		};
+		88525B0220D0BCE10019AC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClientTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClientTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TorClient.app/Contents/MacOS/TorClient";
+			};
+			name = Release;
+		};
+		88525B0420D0BCE10019AC38 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TorClient;
+			};
+			name = Debug;
+		};
+		88525B0520D0BCE10019AC38 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = TorClientUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.nxz0r.TorClientUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = TorClient;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		88525AD220D0BCDF0019AC38 /* Build configuration list for PBXProject "TorClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88525AFB20D0BCE10019AC38 /* Debug */,
+				88525AFC20D0BCE10019AC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88525AFD20D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClient" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88525AFE20D0BCE10019AC38 /* Debug */,
+				88525AFF20D0BCE10019AC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88525B0020D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClientTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88525B0120D0BCE10019AC38 /* Debug */,
+				88525B0220D0BCE10019AC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		88525B0320D0BCE10019AC38 /* Build configuration list for PBXNativeTarget "TorClientUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				88525B0420D0BCE10019AC38 /* Debug */,
+				88525B0520D0BCE10019AC38 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 88525ACF20D0BCDF0019AC38 /* Project object */;
+}
